@@ -5,11 +5,11 @@ Swagger
 
 Swagger: http://localhost:8080/api/swagger-ui.html
 
-M2
+H2
 
 http://localhost:8080/api/h2/
 
-Oauth2
+OAuth2
 
 http://localhost:8080/api/oauth/token
 
