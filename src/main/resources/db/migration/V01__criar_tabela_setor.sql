@@ -1,0 +1,13 @@
+CREATE TABLE SETOR(
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    CAREER VARCHAR(50) NOT NULL,
+    DEPARTMENT VARCHAR(50) NOT NULL
+);
+
+INSERT INTO SETOR (CAREER, DEPARTMENT) values ('Gerente', 'Comercial');
+INSERT INTO SETOR (CAREER, DEPARTMENT) values ('Assistente', 'Comercial');
+INSERT INTO SETOR (CAREER, DEPARTMENT) values ('Gerente', 'Suporte');
+INSERT INTO SETOR (CAREER, DEPARTMENT) values ('Analista', 'Suporte');
+INSERT INTO SETOR (CAREER, DEPARTMENT) values ('Desenvolvedor', 'Desenvolvimento');
+INSERT INTO SETOR (CAREER, DEPARTMENT) values ('CEO', 'Diretoria');
+INSERT INTO SETOR (CAREER, DEPARTMENT) values ('Sócio', 'Diretoria');
